@@ -1,0 +1,41 @@
+body{
+    background-image: url();
+    
+    display: flex;
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 14px;
+    width: 400px;
+   margin-left: 450px;
+   margin-top: 150px;
+  }
+.ticket {
+    width: 300px;
+   margin-left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(176, 47, 47, 0.1);
+  }
+  
+  .ticket-header {
+    text-align: center;
+  }
+  
+  .ticket-header h2 {
+    margin: 0;
+    color: #010101;
+  }
+  
+  .ticket-body {
+    margin-top: 20px;
+  }
+  
+  .ticket-body p {
+    margin: 5px 0;
+    color: #000000;
+  }
+  
+  .ticket-body strong {
+    color: #000000;
+  }
+  

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main content styling */
+.main-content {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Team member card styling */
+.team-member {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: calc(33% - 40px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+
+.team-member h2 {
+    margin-top: 10px;
+}
+
+.team-member p {
+    margin-top: 5px;
+}

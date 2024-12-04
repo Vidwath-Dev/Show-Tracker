@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #d1d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    min-height: 200px;
+    background: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box h2 {
+    color: #fff;
+    background: teal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.box form {
+    width: 100%;
+}
+
+.box form .form-group {
+    margin-bottom: 20px;
+}
+
+.box form .form-group label {
+    display: inline-block;
+    width: 100px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.box form .form-group input {
+    display: inline-block;
+    width: calc(100% - 110px);
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    outline: 0;
+}
+
+.box form input[type=submit] {
+    background: tomato;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.box form input[type=submit]:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.box form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box form p a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
