@@ -19,12 +19,13 @@
     <li>License</li>
 </ul>
 
-i.Features
-Search for movies, events, and sports activities.
-View details of shows including date, time, and price.
-Select seats and calculate total amount.
-User registration and login functionality.
-Payment processing for ticket bookings.
+<h3>Features</h3>
+<h5>Search for movies, events, and sports activities.<br>
+View details of shows including date, time, and price.<br>
+Select seats and calculate total amount.<br>
+User registration and login functionality.<br>
+Payment processing for ticket bookings.</h5>
+
 
 ii.Technologies Used
 HTML5
