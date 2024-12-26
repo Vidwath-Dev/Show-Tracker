@@ -1,6 +1,6 @@
 # Show-Tracker
 
-<h1><img src="devinovation.jpg" alt="Company Logo" width="200" height="auto"></h1>
+<h1><img src="devinovation.jpg" alt="Company Logo" width="200" height="auto" border-radius="4" content-align="center"></h1>
     <h2>Mini Project - Shop Management System</h2>
 
 1.Overview
