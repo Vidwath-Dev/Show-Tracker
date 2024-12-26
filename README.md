@@ -1,86 +1,133 @@
-# Show-Tracker
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        code {
+            background: #eaeaea;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
 
-1.Overview
-ShowTracker is a web application designed for booking tickets for movies, events, and sports activities. It provides users with an easy-to-use interface to search for shows, select seats, and make payments.
+<div class="container">
+    <h1><img src="https://link-to-your-logo.com/logo.png" alt="Company Logo" style="max-width: 200px;"></h1>
+    <h2>Mini Project - Shop Management System</h2>
 
-2.Table of Contents
-i.Features
-ii.Technologies Used
-iii.Getting Started
-iv.Installation
-v.Running the Application
-vi.Setting Up the Server
-vii.Usage
-viiiContributing
-ix.License
+    <h3>1. Overview</h3>
+    <p>This project is a <strong>Shop Management System</strong> that allows users to manage their retail shops, including functionalities for user registration, shop details management, invoice generation, and stock tracking. The application is built using <strong>Node.js</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, and various front-end technologies.</p>
 
-i.Features
-Search for movies, events, and sports activities.
-View details of shows including date, time, and price.
-Select seats and calculate total amount.
-User registration and login functionality.
-Payment processing for ticket bookings.
+    <h3>2. Features</h3>
+    <ul>
+        <li><strong>User Registration and Login</strong></li>
+        <li><strong>Shop Details Management</strong></li>
+        <li><strong>Invoice Generation and Management</strong></li>
+        <li><strong>Stock Tracking and Management</strong></li>
+        <li><strong>Contact Form for User Inquiries</strong></li>
+        <li><strong>Admin Dashboard for Managing Users and Shops</strong></li>
+    </ul>
 
-ii.Technologies Used
-HTML5
-CSS3
-JavaScript
-PHP
-MySQL
-Bootstrap (for responsive design)
-Font Awesome (for icons)
+    <h3>3. Technologies Used</h3>
+    <ul>
+        <li><strong>Node.js</strong></li>
+        <li><strong>Express.js</strong></li>
+        <li><strong>MongoDB</strong></li>
+        <li><strong>Mongoose</strong></li>
+        <li><strong>Handlebars (hbs)</strong></li>
+        <li><strong>Bcrypt</strong> for password hashing</li>
+        <li><strong>Nodemailer</strong> for email functionality</li>
+        <li><strong>HTML5</strong>, <strong>CSS3</strong> for front-end design</li>
+    </ul>
 
-iii.Getting Started
-To get a copy of the project up and running on your local machine, follow these instructions.
+    <h3>4. Getting Started</h3>
 
-iv.Installation
+    <h4>Prerequisites</h4>
+    <p>Before you begin, ensure you have met the following requirements:</p>
+    <ul>
+        <li><strong>Node.js</strong>: Make sure you have Node.js installed on your machine. You can download it from the <a href="https://nodejs.org/" target="_blank">Node.js official website</a>.</li>
+        <li><strong>MongoDB</strong>: You need to have MongoDB installed and running. You can download it from the <a href="https://www.mongodb.com/" target="_blank">MongoDB official website</a>.</li>
+    </ul>
 
-a.Clone the repository:
-Insert Code
+    <h4>Clone the Repository</h4>
+    <ol>
+        <li>Open your terminal or command prompt.</li>
+        <li>Clone the repository using the following command:
+            <br><code>git clone https://github.com/yourusername/Mini-Project-Final-Phase.git</code>
+        </li>
+        <li>Navigate into the project directory:
+            <br><code>cd Mini-Project-Final-Phase</code>
+        </li>
+    </ol>
 
-git clone https://github.com/yourusername/Show-Tracker.git
+    <h4>Install Dependencies</h4>
+    <p>Install the required dependencies using npm:</p>
+    <code>npm install</code>
 
-b.Navigate to the project directory:
-Insert Code
+    <h4>Environment Variables</h4>
+    <ol>
+        <li>Create a <code>.env</code> file in the root directory of the project.</li>
+        <li>Add the following environment variables to the <code>.env</code> file:
+            <pre>
+            JWT_SECRET=your_jwt_secret
+            EMAIL_USER=your_email@example.com
+            EMAIL_PASS=your_email_password
+            </pre>
+            Replace <code>your_jwt_secret</code>, <code>your_email@example.com</code>, and <code>your_email_password</code> with your actual values.
+        </li>
+    </ol>
 
-cd Show-Tracker
+    <h4>Start the Server</h4>
+    <p>To start the server, run the following command:</p>
+    <code>npm start</code>
+    <p>Alternatively, you can use nodemon for automatic server restarts during development:</p>
+    <code>npx nodemon src/index.js</code>
+    <p>The server will start on <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>. You can access the application by opening this URL in your web browser.</p>
 
-c.Set up a local server:
-You can use XAMPP, WAMP, or any other local server environment.
-Place the project folder in the htdocs directory (for XAMPP).
+    <h3>5. Usage</h3>
+    <ol>
+        <li>Navigate to the home page to register or log in.</li>
+        <li>After logging in, you can manage your shop details, view invoices, and track stock.</li>
+        <li>Admin users can access the admin dashboard to manage users and shops.</li>
+    </ol>
 
-v.Running the Application
+    <h3>6. Contributing</h3>
+    <p>Contributions are welcome! If you have suggestions for improvements or new features, feel free to create an issue or submit a pull request.</p>
 
-a.Start the server:
-Open XAMPP/WAMP and start the Apache and MySQL services.
+    <h3>7. License</h3>
+    <p>This project is licensed under the <strong>MIT License</strong> - see the LICENSE file for details.</p>
 
-b.Create a database:
-Open phpMyAdmin (usually at http://localhost/phpmyadmin).
-Create a new database named devcoding.
+    <h3>8. Acknowledgments</h3>
+    <p>Thanks to the contributors and the open-source community for their support and resources.</p>
+</div>
 
-c.Access the application:
-Open your web browser and go to http://localhost/Show-Tracker.
-
-vi.Setting Up the Server
-
-a.Install XAMPP:
-Download and install XAMPP or WAMP from their official websites.
-
-b.Configure the server:
-Ensure that Apache and MySQL are running.
-Adjust any necessary configurations in the httpd.conf or my.cnf files if needed.
-
-c.Database Connection:
-Update the database connection details in connect.php if you are using different credentials.
-
-vii.Usage
-Navigate through the application to search for movies, events, or sports.
-Select a show to view details and book tickets.
-Register or log in to your account to proceed with bookings.
-Make payments through the payment form.
-
-viii.Contributing
-Contributions are welcome! If you have suggestions for improvements or want to add features, please fork the repository and submit a pull request.
-
-ix.License
-This project is licensed under the MIT License - see the LICENSE file for details.
+</body>
+</html>
