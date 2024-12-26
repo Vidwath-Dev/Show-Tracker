@@ -26,25 +26,22 @@ Select seats and calculate total amount.<br>
 User registration and login functionality.<br>
 Payment processing for ticket bookings.</h5>
 
+<h3>Technologies Used</h3>
+<h5>HTML<br>
+CSS<br>
+JavaScript<br>
+PHP<br>
+MySQL</h5>
 
-ii.Technologies Used
-HTML5
-CSS3
-JavaScript
-PHP
-MySQL
-Bootstrap (for responsive design)
-Font Awesome (for icons)
+<h3>Getting Started</h3>
+<p>To get a copy of the project up and running on your local machine, follow these instructions.</p>
 
-iii.Getting Started
-To get a copy of the project up and running on your local machine, follow these instructions.
+<h3>Installation</h3>
 
-iv.Installation
+<h4>a.Clone the repository:</h4>
+<h5>Insert Code</h5>
 
-a.Clone the repository:
-Insert Code
-
-git clone https://github.com/yourusername/Show-Tracker.git
+<code>git clone https://github.com/yourusername/Show-Tracker.git</code>
 
 b.Navigate to the project directory:
 Insert Code
