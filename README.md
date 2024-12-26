@@ -1,5 +1,5 @@
 # Show-Tracker
-
+<div align="center">
 <h1><img src="devinovation.jpg" alt="Company Logo" width="200" height="auto"></h1>
     <h2>Mini Project - Shop Management System</h2>
 
