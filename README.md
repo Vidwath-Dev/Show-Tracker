@@ -5,7 +5,7 @@
 
 <h3>Overview</h3>
 <p>ShowTracker is a web application designed for booking tickets for movies, events, and sports activities. It provides users with an easy-to-use interface to search for shows, select seats, and make payments.</p>
-
+</div>
 <h3>Table of Contents</h3>
 <ul>
     <li>Features</li>
