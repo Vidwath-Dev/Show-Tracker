@@ -1,21 +1,23 @@
 # Show-Tracker
 <div align="center">
 <h1><img src="devinovation.jpg" alt="Company Logo" width="200" height="auto"></h1>
-    <h2>Mini Project - Shop Management System</h2>
+    <h2>Mini Project - Booking Platform</h2>
 
-1.Overview
-ShowTracker is a web application designed for booking tickets for movies, events, and sports activities. It provides users with an easy-to-use interface to search for shows, select seats, and make payments.
+<h3>Overview</h3>
+<p>ShowTracker is a web application designed for booking tickets for movies, events, and sports activities. It provides users with an easy-to-use interface to search for shows, select seats, and make payments.</p>
 
-2.Table of Contents
-i.Features
-ii.Technologies Used
-iii.Getting Started
-iv.Installation
-v.Running the Application
-vi.Setting Up the Server
-vii.Usage
-viiiContributing
-ix.License
+<h3>Table of Contents</h3>
+<ul>
+    <li>Features</li>
+    <li>Technologies Used</li>
+    <li>Getting Started</li>
+    <li>Installation</li>
+    <li>Running the Application</li>
+    <li>Setting Up the Server</li>
+    <li>Usage</li>
+    <li>Contributing</li>
+    <li>License</li>
+</ul>
 
 i.Features
 Search for movies, events, and sports activities.
