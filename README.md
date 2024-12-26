@@ -20,18 +20,18 @@
 </ul>
 
 <h3>Features</h3>
-<h5>Search for movies, events, and sports activities.<br>
+<p>Search for movies, events, and sports activities.<br>
 View details of shows including date, time, and price.<br>
 Select seats and calculate total amount.<br>
 User registration and login functionality.<br>
-Payment processing for ticket bookings.</h5>
+Payment processing for ticket bookings.</p>
 
 <h3>Technologies Used</h3>
-<h5>HTML<br>
+<p>HTML<br>
 CSS<br>
 JavaScript<br>
 PHP<br>
-MySQL</h5>
+MySQL</p>
 
 <h3>Getting Started</h3>
 <p>To get a copy of the project up and running on your local machine, follow these instructions.</p>
@@ -41,49 +41,48 @@ MySQL</h5>
 <h4>a.Clone the repository:</h4>
 <h5>Insert Code</h5>
 
-<code>git clone https://github.com/yourusername/Show-Tracker.git</code>
+<code>git clone https://github.com/Vidwath-Dev/Show-Tracker.git</code>
 
-b.Navigate to the project directory:
-Insert Code
+<h4>b.Navigate to the project directory:</h4>
+<h5>Insert Code</h5>
 
-cd Show-Tracker
+<code>cd Show-Tracker</code>
 
-c.Set up a local server:
-You can use XAMPP, WAMP, or any other local server environment.
-Place the project folder in the htdocs directory (for XAMPP).
+<h4>c.Set up a local server:</h4>
+<p>You can use XAMPP, WAMP, or any other local server environment.<br>
+Place the project folder in the htdocs directory (for XAMPP).</p>
 
-v.Running the Application
+<h3>Running the Application</h3>
 
-a.Start the server:
-Open XAMPP/WAMP and start the Apache and MySQL services.
+<h4>a.Start the server:</h4>
+<p>Open XAMPP/WAMP and start the Apache and MySQL services.</p>
 
-b.Create a database:
-Open phpMyAdmin (usually at http://localhost/phpmyadmin).
-Create a new database named devcoding.
+<h4>b.Create a database:</h4>
+<p>Open phpMyAdmin (usually at http://localhost/phpmyadmin).<br>
+Create a new database named devcoding.</p>
 
-c.Access the application:
-Open your web browser and go to http://localhost/Show-Tracker.
+<h4>c.Access the application:</h4>
+<p>Open your web browser and go to http://localhost/Show-Tracker.</p>
 
-vi.Setting Up the Server
+<h4>Setting Up the Server</h4>
+<h5>a.Install XAMPP:</h5>
+<p>Download and install XAMPP or WAMP from their official websites.</p>
 
-a.Install XAMPP:
-Download and install XAMPP or WAMP from their official websites.
+<h5>b.Configure the server:</h5>
+<p>Ensure that Apache and MySQL are running.<br>
+Adjust any necessary configurations in the httpd.conf or my.cnf files if needed.</p>
 
-b.Configure the server:
-Ensure that Apache and MySQL are running.
-Adjust any necessary configurations in the httpd.conf or my.cnf files if needed.
+<h5>c.Database Connection:</h5>
+<p>Update the database connection details in connect.php if you are using different credentials.</p>
 
-c.Database Connection:
-Update the database connection details in connect.php if you are using different credentials.
+<h3>Usage</h3>
+<p>Navigate through the application to search for movies, events, or sports.<br>
+Select a show to view details and book tickets.<br>
+Register or log in to your account to proceed with bookings.<br>
+Make payments through the payment form.</p>
 
-vii.Usage
-Navigate through the application to search for movies, events, or sports.
-Select a show to view details and book tickets.
-Register or log in to your account to proceed with bookings.
-Make payments through the payment form.
+<h3>Contributing</h3>
+<p>Contributions are welcome! If you have suggestions for improvements or want to add features, please fork the repository and submit a pull request.</p>
 
-viii.Contributing
-Contributions are welcome! If you have suggestions for improvements or want to add features, please fork the repository and submit a pull request.
-
-ix.License
-This project is licensed under the MIT License - see the LICENSE file for details.
+<h3>License</h3>
+<p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
